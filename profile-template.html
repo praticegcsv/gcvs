@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600">The Crew.</a>
+            <div class="space-x-6 font-medium">
+                <a href="index.html" class="hover:text-indigo-600 transition">Home</a>
+                <a href="scrapbook.html" class="hover:text-indigo-600 transition">Scrapbook</a>
+                <a href="archive.html" class="hover:text-indigo-600 transition">The Archive</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-indigo-900 text-white py-16 px-4">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
+            <img class="w-40 h-40 rounded-full object-cover border-4 border-indigo-400 shadow-xl" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Friend Solo Profile">
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl font-extrabold">Alex Johnson</h1>
+                <p class="text-indigo-300 text-lg font-medium mt-1">"The Group Planner / Spreadsheet Queen"</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="md:col-span-2 space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">About Me</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Hey! I'm Alex. When I'm not organizing our next weekend trip down to the exact departure minute, I'm usually drinking iced matchas or re-watching sitcoms. My goal on this site is to make sure we actually look organized to outsiders.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Candid Moments</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <img class="rounded-lg object-cover h-40 w-full" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=400&q=80" alt="Memory 1">
+                    <img class="rounded-lg object-cover h-40 w-full" src="https://images.unsplash.com/photo-1484712401471-05c7215e66eb?auto=format&fit=crop&w=400&q=80" alt="Memory 2">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-fit space-y-6">
+            <h2 class="text-2xl font-bold text-gray-900">Quick Facts</h2>
+            
+            <div class="space-y-4">
+                <div>
+                    <h4 class="text-xs font-bold text-indigo-600 uppercase tracking-wide">Favorite Memory</h4>
+                    <p class="text-gray-700 font-medium text-sm mt-0.5">That time we got lost in Chicago and slept in a 24-hour diner.</p>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold text-indigo-600 uppercase tracking-wide">Signature Phrase</h4>
+                    <p class="text-gray-700 font-medium text-sm mt-0.5">"Guys, look at the group itinerary I sent you."</p>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold text-indigo-600 uppercase tracking-wide">Known For</h4>
+                    <p class="text-gray-700 font-medium text-sm mt-0.5">Owning 47 Excel sheets for dynamic budgeting.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center text-sm">
+        <p><a href="index.html" class="text-indigo-400 hover:underline">&larr; Back to Home</a></p>
+    </footer>
+
+</body>
+</html>
